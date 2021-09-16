@@ -10,6 +10,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 ol, ul {
 	list-style: none;
@@ -57,7 +58,7 @@ br.clear {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	max-width:1330px;
+	max-width:1400px;
 }
 .flex-wrapper {
 	display: flex;
@@ -123,9 +124,9 @@ br.clear {
 	margin: 0 40px;
 }
 #Home header div.left h1 {
-	width: 110px;
-	position: relative;
-	right: 190px;
+	width: 130px;
+    position: relative;
+    right: 105px;
 
 }
 #Home header div.left h1 a {
@@ -163,8 +164,6 @@ br.clear {
 #Home header div.right ul {
 	display: flex;
 	align-items: center;
-	position: relative;
-	left: 45%;
 }
 #Home header div.right ul li {
 	margin-right: 40px;
@@ -217,7 +216,7 @@ br.clear {
 #spotlight div.left form input[type="submit"] {
 	color: #ffffff;
 	font-size: 20px;
-    padding: 17px 5.8px;
+    padding: 17px 16.5px;
     background-color: #2756fb;
     border-radius: 8px;
 }
@@ -259,10 +258,23 @@ br.clear {
 #highlights section.item div.content-box {
 	width: 40%;
 }
-#highlights section.item div.content-box img {
+#highlights section.item div.content-box img.icon {
 	background-color: #f5794c;
     border-radius: 35%;
     padding: 16px 16px;
+	margin-bottom: 25px;
+}
+#highlights section.item div.content-box img.icon2 {
+	background-color: #f9c837;
+    border-radius: 35%;
+    padding: 16px 16px;
+	margin-bottom: 25px;
+}
+#highlights section.item div.content-box img.icon3{
+	background-color: #46d278;
+    border-radius: 35%;
+    padding: 16px 16px;
+	margin-bottom: 25px;
 }
 #highlights section.item div.content-box h3 {
 	font-size: 50px;
@@ -270,7 +282,7 @@ br.clear {
 }
 #highlights section.item div.content-box p {
 	font-size: 20px;
-	margin-top: 20px;
+	margin-bottom: 20px;
 }
 #highlights section.item div.content-box  a {
 	margin-bottom: 20px;
@@ -282,25 +294,635 @@ br.clear {
     padding: 13px 12px;
     width: 115px;
 }
+#highlights section.item div.content-box hr.line {
+	border-bottom: .5px dotted #cdcdcd;
+    margin: 30px 64% 30px 0px;
+}
 #highlights section.item div.content-box  span {
-
+	color: #9f9f9f;
+	font-style: italic;
 }
 #highlights section.item div.content-box small {
-
+	display: block;
+    margin: 12px 0;
+	color: #c0c0c0;
+}
+#highlights section.item div.content-box small b {
+	color: #777777;
+	font-weight: bold;
 }
 #highlights section.item div.content-box a {
-
+	display: block;
+	width: 100%;
+} 
+#highlights section.item div.content-box a img {
+	display: block;
+	width: 16%;
+}
+#highlights section.item div.content-box a img.iheart {
+	display: block;
+	width: 24%;
 } 
 #highlights section.item.bg {
- 
+	background-color: #f8f8f8;
 }
 #highlights section.item.bg div.image-container {
-
 	width: 45%;
 }
 #highlights section.item.bg div.image-container img {
 	width: 100%;
 }
+#brands {
+	padding: 70px 0;
+}
+#brands section.wrapper {
+
+}
+#brands section.wrapper {
+
+}
+#brands section.wrapper div.headline {
+	margin: 16px 24px;
+}
+#brands section.wrapper div.headline h1 {
+	font-size: 45px;
+	font-weight: bold;
+	width: 50%;
+}
+#brands section.wrapper ul {
+ display: flex;
+}
+#brands section.wrapper ul li {
+	width: 48%;
+	text-align: center;
+	padding: 50px;
+}
+#brands section.wrapper ul li div.video-container {
+	width: 120%;
+}
+#brands section.wrapper ul li div.video-container img  {
+	display: block;
+	width: 100%;
+	margin-left: -35px;
+	margin-bottom: -42px;
+}
+#brands section.wrapper ul li p {
+
+}
+#brands section.wrapper ul li img.icon1 {
+	position: relative;
+    left: -33%;
+    bottom: 18%;
+    border-radius: 8%;
+    background-color: #ffffff;
+    padding: 8px 34px;
+}
+#brands section.wrapper ul li img.icon2 {
+	position: relative;
+	left: -31%;
+    bottom: 18%;
+    border-radius: 8%;
+    background-color: #ffffff;
+    padding: 10px 10px;
+}
+#brands section.wrapper ul li img.icon3 {
+	position: relative;
+    left: -32%;
+    bottom: 18%;
+    border-radius: 8%;
+    background-color: #ffffff;
+    padding: 13px 13px;
+    
+}
+#brands section.wrapper ul li img.play {
+	position: relative;
+	bottom: 70%;
+    left: 30%;
+	padding: 25px 25px;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+#founders {
+
+}
+#founders section.wrapper {
+
+} 
+#founders section.image-container {
+
+}
+#founders section.image-container ul {
+	display: flex;
+	justify-content: space-around;
+
+}
+#founders section.image-container ul li {
+	display: block;
+	width: 42%;
+}
+#founders section.image-container ul li img {
+	display: block;
+	width: 100%;
+	margin-bottom: -12px;
+}
+#founders section.image-container ul li img.icon1 {
+    width: 18%;
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+    padding: 2px 15px;
+    background-color: #ffffff;
+	border-radius: 8px;
+}
+#founders section.image-container ul li img.icon2 {
+	width: 20%;
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+    padding: 12px 19px;
+    background-color: #ffffff;
+	border-radius: 8px;
+}
+#founders section.image-container ul li p {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#founders section.image-container ul li span {
+	font-weight: 700;
+}
+#founders section.image-container ul li small {
+	color: #d1d1d1;
+}
+#promotion {
+	background-color: #f8f8f8;
+}
+#promotion section.container {
+	margin: 12% 0;
+
+}
+#promotion section.container div.top h1 {
+	font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+}
+#promotion section.container div.top ul {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}	
+#promotion section.container div.top  ul li {
+	width: 32%;
+	text-align: center;
+	padding: 10% 0;
+}
+#promotion section.container div.top ul li:nth-child(3n+1) {
+	border-right: 0.2px dotted #d1d1d1;
+}
+#promotion section.container div.top ul li img {
+	display: inline-block;
+	margin-bottom: 16px;
+	height: 140px;
+}
+#promotion section.container div.top ul li h6 {
+	margin-bottom: 16PX;
+	font-weight: 600;
+	font-size: 24px;
+}
+#promotion section.container ul li span {
+
+}
+#promotion section.container div.bottom {
+
+}
+#promotion section.container div.bottom  ul {
+	display: flex;
+}
+#promotion section.container div.bottom  ul li {
+
+}
+#promotion section.container div.bottom  ul li img {
+
+}
+#promotion section.container div.bottom  ul li p {
+
+}
+#promotion section.container div.bottom ul li a.button {
+
+}
+#business {
+ width: 80%;
+ margin: auto;
+ text-align: center;
+ padding-top: 100px;
+}
+#business  section.gallery {
+
+}
+#business  section.gallery h1 {
+	text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    width: 40%;
+    margin: 0 auto;
+	margin-bottom: 65px;
+}
+#business  section.gallery ul {
+	display: flex;
+	justify-content: space-between;
+}
+#business  section.gallery ul li {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 8%;
+	text-align: left;
+	height: fit-content;
+}
+#business  section.gallery ul li:nth-child(1) {
+	background-color: #d0dfff;
+}
+#business  section.gallery ul li:nth-child(2) {
+	background-color: #fef4d7;
+}
+#business  section.gallery ul li:nth-child(3) {
+	background-color: #fce4da;
+}
+#business  section.gallery ul li h2 {
+	text-align: center;
+	margin-top: 30px;
+	font-weight: 800;
+}
+#business  section.gallery ul li p {
+	padding: 80px;
+	text-align: center;
+	font-weight: 600;
+}
+#business  section.gallery ul li  a {
+	position: relative;
+	left: 135px;
+	padding: 15px 20px;
+	border-radius: 8px;
+}
+#business  section.gallery ul li a.button1 {
+	background-color: #2756fb;
+}
+#business  section.gallery ul li a.button2 {
+	background-color: #f9c837;
+}
+#business  section.gallery ul li a.button3  {
+	background-color: #f5794c;
+}
+#business  section.gallery ul li img.icon {
+	display: block;
+    position: relative;
+    left: 40%;
+    margin-top: 40px;
+    padding: 25px 35px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+#business  section.gallery ul li img.image {
+	width: 100%;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+}
+#resources {
+	padding: 22px;
+}
+#resources section.image-container {
+
+}
+#resources section.image-container h1 {
+	font-size: 45px;
+	font-weight: 600;
+	width: 40%;
+	margin-bottom: 36px;
+}
+#resources section.image-container  ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#resources section.image-container ul li {
+
+}
+#resources section.image-container ul li img {
+
+}
+#resources section.image-container ul li:nth-child(1) img {
+	width: 360px;
+	height: 300px;
+}
+#resources section.image-container ul li h3 {
+	font-weight: 600;
+	font-size: 14px;
+	padding: 12px 0;
+}
+#resources section.image-container ul li.box1 {
+
+}
+#resources section.image-container ul li.box1 h3 {
+	color: #2756fb;
+	padding: 12px 0;
+}
+#resources section.image-container ul li p {
+	font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2em;
+    padding: 20px 0px;
+    width: 64%;
+}
+#resources section.image-container ul li a {
+	font-weight: 600;
+}
+#resources section.image-container a.button {
+	display: block;
+    width: 17%;
+    font-size: 20px;
+    padding: 20px 20px;
+    background-color: #2756fb;
+    margin: 60px auto;
+	border-radius: 10px;
+}
+#pricing {
+	background: #000;
+	padding: 100px 0 50px;
+}
+#pricing section.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#pricing section.content div.left  {
+	width: 48%;
+	background-color: #000;
+	color: #fff;
+}
+#pricing div.left h2 {
+	font-size: 40px;
+	max-width: 340px;
+	display: block;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#pricing div.left p {
+	color: #3d3d3d;
+	max-width: 445px;
+	margin-bottom: 30px;
+}
+#pricing div.left hr.line {
+	border-bottom: .5px dashed #fff;
+	width: 150px;
+	margin-bottom: 20px;
+}
+#pricing div.left h3 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+#pricing div.left q {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	max-width: 486px;
+	display: inline-block;
+}
+#pricing div.left h5 {
+	font-weight: 700;
+}
+#pricing div.left small {
+	color: ;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+#pricing div.left nav.container1 {
+	display: flex;
+	justify-content: space-between;
+	max-width: 200px;
+	margin-bottom: 30px;
+}
+#pricing div.left nav.container1 ul {
+	display: flex;
+	justify-content: space-between;
+}
+#pricing div.left ul li{
+	width: 45px;
+	height: 45px;
+	box-sizing: border-box;
+}
+#pricing div.left nav.container1 ul li img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	padding: 2px;
+}
+#pricing div.left nav.container2 ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 60px;
+	width: 75%;
+	height: 100px;
+}
+#pricing div.left nav.container2 ul li {
+
+}
+#pricing div.left nav.container1 ul li img {
+
+}
+#pricing div.right {
+	width: 48%;
+	background: #ffffff;
+	padding: 40px;
+	border-radius: 5px;
+	position: relative;
+}
+#pricing div.right  h3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: #000;
+}
+#pricing div.right form {
+	padding: 30px 0 0;
+}
+#pricing div.right form div.top {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#pricing div.right form div.top input {
+	width: 48%;
+	border: 1px solid #;
+	padding: 15px 25px;
+	margin-bottom: 10px;
+	color: #b2b2b2;	
+	font-size: 18px;
+	border: 1px solid #b2b2b2;
+	border-radius: 5px;
+
+
+}
+#pricing div.right form div.top input[type=email] {
+
+}
+}
+#pricing div.right form div.top input[type=text] {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+#pricing div.right form div.top select {
+	width: 48%;
+	border: 1px solid #;
+	padding: 15px 25px;
+	margin-bottom: 10px;
+	color: #b2b2b2;
+	font-size: 18px;
+	border: 1px solid #b2b2b2;
+}
+#pricing div.right form div.top select option {
+	flex: 1;
+	margin-left: 20px;
+	font-size: 15px;
+}
+#pricing div.right form div.bottom {
+	width: 100%;
+	margin-top: 10px;	
+}
+#pricing div.right form div.bottom span {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+#pricing div.right form div.bottom span input[type=checkbox] {
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	opacity: .8;
+}
+#pricing div.right form div.bottom span p {
+	flex: 1;
+	margin-left: 20px;
+	font-size: 15px;
+	color: ;
+}
+#pricing div.right form div.bottom input[type=submit] {
+	width: 100%;
+	background: #0054F5;
+	color: #fff;
+	font-weight: 700;
+	padding: 20px 0;
+	margin-top: 25px;
+	border-radius: 7px;
+	font-size: 17px;
+}
+#pricing div.right form div.bottom span p a {
+	font-size: 15px;
+	text-decoration: underline;
+	color: ;
+}
+footer {
+	padding: 100px;
+}
+footer section.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer section.content div.left {
+	width: 30%;
+}
+footer section.content div.left p {
+	font-size: 26px;
+	font-weight: 700;
+	max-width: 270px;
+}
+footer section.content div.left ul {
+	margin: 50px 0;
+	display: flex;
+	align-items: center;
+}
+footer section.content div.left ul li {
+width: 50%;
+}
+footer section.content div.left ul li a {
+	margin-right: 20px;
+	background: ;
+	padding: 10px;
+	border-radius: 14px;
+	height: 40px;
+	width: 40px;	
+}
+footer section.content div.left ul li a:last-child {
+	margin-right: 0;	
+}
+
+footer section.content div.left ul li img {
+	filter: grayscale(100%);
+    opacity: 0.4;
+    width: 40%;
+    height: 90%;
+    display: block;
+}
+footer section.content a {
+	
+}
+footer section.content ul {
+	display: flex;
+	justify-content: space-between;	
+}
+footer section.content  ul li {
+
+}
+footer section.content ul li a {
+	font-size: 16px;
+	font-weight: 500;
+}
+footer section.content div.left ul li a:hover {
+	text-decoration: underline;
+}
+footer section.content div.right {
+	width: 70%;
+
+}
+footer section.content div.right div.item {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;	
+}
+footer section.content div.right div.item ul {
+	display: flex;
+    align-items: center;
+    width: 100%;
+}
+footer section.content div.right div.item ul li {
+	padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    flex-basis: 30%;
+}
+footer section.content div.right div.item ul li a {
+	display: inline-block;
+	width: 100%;
+	font-weight: 500;	
+}
+footer section.content div.right div.item ul li a:hover {
+	text-decoration: none;
+} 
+footer section.content div.right div.item ul li a img {
+	display: inline-block;
+	width: 24px;
+	margin-right: 10px;
+}
+footer section.content div.right div.item :nth-child(4) ul li:last-child a {
+	font-weight: 600;
+}
+
+
 
 
 
