@@ -291,6 +291,7 @@ br.clear {
 }
 #highlights section.item div.content-box  a.button {
 	display: block;
+	color: #ffffff;
     background-color: #2756fb;
     border-radius: 10%;
     padding: 13px 12px;
@@ -978,7 +979,7 @@ footer section.content div.right div.item :nth-child(4) ul li:last-child a {
 	}
 	#spotlight div.left form input[type="submit"] {
 		padding: 16px 16px;
-		width: 38%;
+		width: 38.6%;
 	}
 	#spotlight div.left form input[type="email"] {
 		padding: 0 16px;
@@ -1033,7 +1034,7 @@ footer section.content div.right div.item :nth-child(4) ul li:last-child a {
 	}
 
 }
-@media (max-width: 1080px) {
+@media all and (max-width: 1080px) {
 	#Home header div.right ul li {
     font-size: 16px;
 	}
@@ -1061,6 +1062,267 @@ footer section.content div.right div.item :nth-child(4) ul li:last-child a {
 		left: 106px;
 
 }
+@media all and (max-width: 980px) {
+	#Home header div.right ul li:nth-child(2) {
+		display: none;
+	}
+	#spotlight div.left {
+		width: 70%;
+	}
+	#highlights section.item div.content-box {
+		width: 100%;
+	}
+	#highlights section.item div.image-container img {
+		margin-left: 45px;
+	}
+	#brands section.wrapper ul {
+		flex-direction: column;
+	}
+	#brands section.wrapper ul li {
+		width: 100%;
+	}
+	#brands section.wrapper div.headline h1 {
+		width: 80%;
+	}
+	#brands section.wrapper ul li img.icon1 {
+    	left: -30%;
+    	top: -144px;
+    	padding: 24px 64px;
+	}
+	#brands section.wrapper ul li img.icon2 {
+    	left: -25%;
+    	top: -144px;
+    	padding: 24px 64px;
+	}
+	#brands section.wrapper ul li img.icon3 {
+    	left: -25%;
+    	top: -144px;
+    	padding: 24px 64px;
+	}
+	#brands section.wrapper ul li img.play {
+		top: -500px;
+		left: 28%;
+		padding: 50px 50px;
+	}
+	#business {
+		width: 100%;
+	}
+	#business section.gallery h1 {
+		width: 70%;
+	}
+	#founders section.image-container ul li img.icon1 {
+		width: 30%;
+	}
+	#founders section.image-container ul li img.icon2 {
+		width: 30%;
+	}
+	#promotion section.container div.top ul li {
+		width: 50%;
+	}
+	#promotion section.container div.bottom {
+		width: 80%;
+	}
+	#promotion section.container div.top h1 {
+		width: 80%;
+	}
+	#promotion section.container div.top ul {
+		margin: 0;
+	}
+	#promotion section.container {
+		margin: 17% 0;
+	}
+	#resources section.image-container h1 {
+		width: 100%;
+		margin-top: 30px;
+		font-size: 38px;
+	}
+	#resources section.image-container ul li { 
+		width: 100%;
+	}
+	#resources section.image-container ul li.box1 {
+		width: 100%;
+	}
+	#resources section.image-container ul li p {
+		width: 100%;
+	}
+	#resources section.image-container ul li img {
+		margin-top: 35px;
+	}
+	#resources section.image-container a.button {
+		width: 82%;
+		padding: 21px 172px;
+	}
+	#pricing div.right form div.top select {
+		width: 100%;
+	}
+	#pricing div.right form div.top input {
+		width: 100%;
+	}
+	footer section.wrapper {
+		flex-wrap: wrap;
+	}
+	footer section.content div.right {
+		left: 0px;
+		top: 80px;
+	}
+	footer section.content div.right div.item ul li {
+		padding-bottom: 0px;
+		flex-basis: 23%;
+	}
+	footer section.content ul {
+		margin-top: 20px;
+	}
+	footer section.content a img{
+		margin-top: 30px;
+	}
+	footer section.content div.left ul li img {
+		width: 80%;
+	}
+	footer section.content div.left p {
+		font-size: 24px;
+	}
+
+}
+@media all and (max-width: 768px) {
+	#Home header div.left ul li {
+		display: none;
+	}
+	#spotlight {
+		background: none;
+	}
+	#spotlight div.left img {
+		display: none;
+	}
+	#spotlight div.bottom ul li {
+		padding-right: 64px;
+	}
+	#spotlight div.bottom ul {
+		flex-wrap: wrap;
+	}
+	#spotlight div.left form input[type="email"] {
+		width: 66%;
+	}
+	#spotlight div.left form input[type="submit"] {
+		width: 32.4%;
+		padding: 16px 0;
+	}
+	#brands section.wrapper ul li img.play {
+		top: -400px
+	}
+	#brands section.wrapper ul li img.icon1 {
+		left: -23%;
+	}
+	#brands section.wrapper ul li img.icon2 {
+		left: -20%;
+	}
+	#brands section.wrapper ul li img.icon3 {
+		left: -20%;
+	}
+	#promotion section.container div.bottom ul {
+		flex-wrap: wrap;
+	}
+	#promotion section.container div.bottom ul li {
+		width: 90%;
+	}
+	#business section.gallery ul {
+		flex-direction: column;
+	}
+	#business section.gallery ul li img.icon {
+		left: 41%;
+	}
+	#business section.gallery ul li a {
+		left: 224px;
+	}
+	#business section.gallery ul li p {
+		padding: 24px;
+	}
+	#resources section.image-container a.button {
+		width: 100%;
+		padding: 21px 175px;
+	}
+
+}
+@media all and (max-width: 650px) {
+	#spotlight div.left h1 {
+		font-size: 32px;
+	}
+	#spotlight div.left form input[type="email"] {
+    	width: 65%;
+		font-size: 12px;
+	}
+	#spotlight div.left form input[type="submit"] {
+		font-size: 12px;
+		width: 33.4%;
+    	padding: 16px 32px
+	}
+	#spotlight div.left {
+		width: 100%;
+	}
+	#spotlight div.bottom ul li {
+		padding: 27px 0px;
+	}
+	#highlights section.item div.content-box h3 {
+		font-size: 32px;
+	}
+	#highlights section.item div.content-box p {
+		font-size: 18px
+	}
+	#brands section.wrapper div.headline h1 {
+		width: 100%;
+	}
+	#brands section.wrapper ul li img.play {
+		display: none;
+	}
+	#brands section.wrapper ul li img.icon1 {
+		display: none;
+	}
+	#brands section.wrapper ul li img.icon2 {
+		display: none;
+	}
+	#brands section.wrapper ul li img.icon3 {
+		display: none;
+	}
+	#brands section.wrapper ul li p {
+		margin-top: 60px;
+	}
+	#founders section.image-container ul {
+		flex-direction: column;
+	}
+	#founders section.image-container ul li {
+		width: 100%;
+	}
+	#founders section.image-container ul li p {
+		margin: 20px;
+	}
+	#founders section.image-container ul li:last-child(2) {
+		margin-top: 20px;
+	}	
+	#promotion section.container div.top ul {
+		flex-direction: column;
+	}
+	#promotion section.container div.top ul li {
+		width: 100%;
+	}
+	#promotion section.container div.bottom ul li a.button {
+		margin: 90px;
+	}
+	#promotion section.container div.bottom ul li {
+		width: 100%;
+	}
+	#business section.gallery h1 {
+		font-size: 32px;
+	}
+	#business section.gallery ul li a {
+		left: 138px;
+	}
+	#business section.gallery ul li img.icon {
+		left: 35%;
+	}
+	#resources section.image-container a.button {
+		padding: 21px 79px;
+	}
+	
+}	
 
 
 
