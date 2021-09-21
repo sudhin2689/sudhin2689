@@ -218,7 +218,7 @@ br.clear {
 #spotlight div.left form input[type="submit"] {
 	color: #ffffff;
 	font-size: 20px;
-    padding: 17px 8.5px;
+    padding: 16px 8.5px;
     background-color: #2756fb;
     border-radius: 8px;
 }
@@ -663,6 +663,7 @@ br.clear {
 }
 #resources section.image-container a.button {
 	display: block;
+	color: #ffffff;
     width: 17%;
     font-size: 20px;
     padding: 20px 18px;
@@ -1026,6 +1027,9 @@ footer section.content div.right div.item :nth-child(4) ul li:last-child a {
 	#resources section.image-container ul li img {
 		width: 100%;
 	}
+	#pricing div.left nav.container2 ul {
+		width: 100%;
+	}
 	footer section.content div.left p {
 		width: 80%;
 	}
@@ -1054,13 +1058,27 @@ footer section.content div.right div.item :nth-child(4) ul li:last-child a {
 	#resources section.image-container a.button {
 		width: 27%;
 	}
+	#pricing div.left nav.container2 ul {
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-end;
+	}
+	#pricing div.left nav.container2 ul li {
+		padding: 20px 0;
+	}
 	footer section.content div.left p {
 		width: 100%;
 	}
 	footer section.content div.right {
 		width: 100%;
 		left: 106px;
-
+	}
+	#pricing div.left nav.container2 ul {
+		margin-top: 85px;
+	}
+	#pricing div.right {
+		margin-top: 20px;
+	}
 }
 @media all and (max-width: 980px) {
 	#Home header div.right ul li:nth-child(2) {
@@ -1321,8 +1339,85 @@ footer section.content div.right div.item :nth-child(4) ul li:last-child a {
 	#resources section.image-container a.button {
 		padding: 21px 79px;
 	}
-	
-}	
+	#pricing section.wrapper {
+		flex-direction: column;
+	}
+	#pricing div.right {
+		width: 100%;
+	}
+	footer section.content div.right {
+		left: -62px;
+	}
+	footer section.content div.right div.item ul {
+		width: 170%;
+	}
+	footer section.content ul li {
+		padding: 14px 0;
+	}
+	footer section.content div.left {
+		width: 100%;
+	}
+	footer section.content ul {
+		margin-top: 0px;
+	}
+}
+@media all and (max-width: 450px) {
+	#Home header div.left h1 {
+    	right: 55px;
+	}
+	#spotlight div.left form input[type="email"] {
+		width: 64%;
+	}
+	#spotlight div.left form input[type="submit"] {
+		width: 34%;
+	}
+	#spotlight div.bottom ul {
+		flex-direction: column;
+	}
+	#highlights section.item div.image-container img {
+		width: 150%;
+	}
+	#highlights section.item.bg div.image-container img {
+		width: 150%;
+	}
+	#promotion section.container div.bottom ul li a.button {
+		margin: 64px;
+	}
+	#business section.gallery ul li a {
+		left: 90px;
+	}
+	#resources section.image-container a.button {
+    	padding: 21px 46px;
+	}
+	footer section.content div.right {
+		left: -92px;
+	}
+	footer section.content div.right div.item ul {
+		width: 221%;
+	}
+}
+@media all and (max-width: 360px) {
+	#spotlight div.left form input[type="email"] {
+    	width: 63%;
+		font-size: 13px;
+	}
+	#spotlight div.left form input[type="submit"] {
+		width: 34.9%;
+		padding: 16px 16px;
+	}
+	#brands section.wrapper div.headline h1 {
+		font-size: 32px;
+	}
+	#promotion section.container div.bottom ul li a.button {
+		margin: 52px;
+	}
+	#resources section.image-container ul li {
+		padding-left: 12px;
+	}
+	#resources section.image-container a.button {
+		padding: 21px 23px;
+	}
+}
 
 
 
